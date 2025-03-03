@@ -14,7 +14,7 @@ public class LinnearTwo10 {
 
 		perimeter = 3.141592;
 
-		square = perimeter * (perimeter / Math.PI);
+		square = Math.pow(perimeter, 2) / (4 * Math.PI);
 
 		System.out.println(square);
 
