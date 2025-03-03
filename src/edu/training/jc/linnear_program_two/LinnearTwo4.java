@@ -15,8 +15,8 @@ public class LinnearTwo4 {
 
 		R = 3.7;
 
-		perimeter = R * Math.PI;
-		square = Math.PI * Math.pow(perimeter, 2); // или square = perimeter * R;
+		perimeter = 2 * R * Math.PI;
+		square = Math.PI * Math.pow(R , 2); // или square = perimeter * R;
 		System.out.println("Длина окружности = " + perimeter + ", площадь круга = " + square + ".");
 
 	}
