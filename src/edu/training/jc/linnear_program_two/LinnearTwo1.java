@@ -11,14 +11,18 @@ public class LinnearTwo1 {
 
 		double legOne;
 		double legTwo;
+		double hypotenuse;
+		double perimeter;
 		double square;
 
 		legOne = 3;
 		legTwo = 4;
 
 		square = (legOne * legTwo) / 2;
+		hypotenuse = Math.sqrt(Math.pov(legOne,2) + Math.pov(legTwo, 2);
+		perimeter = legOne + legTwo + hypotenuse;
 
-		System.out.print(square);
+		System.out.print("Периметр прямоугольного треугольника = " + perimeter + ", площадь прямоугольного треугольника = " + square);
 
 	}
 
