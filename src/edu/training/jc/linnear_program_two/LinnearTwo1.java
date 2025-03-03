@@ -19,7 +19,7 @@ public class LinnearTwo1 {
 		legTwo = 4;
 
 		square = (legOne * legTwo) / 2;
-		hypotenuse = Math.sqrt(Math.pov(legOne,2) + Math.pov(legTwo, 2);
+		hypotenuse = Math.sqrt(Math.pow(legOne,2) + Math.pow(legTwo, 2));
 		perimeter = legOne + legTwo + hypotenuse;
 
 		System.out.print("Периметр прямоугольного треугольника = " + perimeter + ", площадь прямоугольного треугольника = " + square);
