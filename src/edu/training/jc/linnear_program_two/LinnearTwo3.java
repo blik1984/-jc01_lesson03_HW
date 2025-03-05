@@ -42,7 +42,7 @@ public class LinnearTwo3 {
 			lengthBC = 0;
 
 		} else {
-			lengthBC = Math.sqrt(Math.pow(YPointA - YPointB, 2) + Math.pow(XPointA - XPointB, 2));
+			lengthBC = Math.sqrt(Math.pow(YPointB - YPointC, 2) + Math.pow(XPointB - XPointC, 2));
 
 		}
 		if (XPointC == YPointC && XPointC == XPointA && XPointC == YPointA) {
@@ -50,7 +50,7 @@ public class LinnearTwo3 {
 			lengthCA = 0;
 
 		} else {
-			lengthCA = Math.sqrt(Math.pow(YPointA - YPointB, 2) + Math.pow(XPointA - XPointB, 2));
+			lengthCA = Math.sqrt(Math.pow(YPointC - YPointA, 2) + Math.pow(XPointC - XPointA, 2));
 
 		}
 		perimeter = lengthAB + lengthBC + lengthCA;
